@@ -4,7 +4,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import java.lang.reflect.Method;
 import java.util.Scanner;
-
+/*
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @interface FamilyBudget {
@@ -28,10 +28,10 @@ class FamilyMember {
 		System.out.println("Budget Left: " + (budget - moneySpend));
 	}
 }
-
+*/
 public class JavaAnnotations {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+	/*	Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
 		while (testCases > 0) {
 			String role = in.next();
@@ -57,6 +57,6 @@ public class JavaAnnotations {
 				e.printStackTrace();
 			}
 			testCases--;
-		}
+		}*/
 	}
 }
