@@ -1,4 +1,5 @@
-package com.swisslog.wm6.medportal.web;
+package com.problem.sloving;
+
 public class Permutation {
     static void printPatternUtil(String str, char buf[], int i, int j, int n) {
         if (i == n) {
@@ -6,14 +7,11 @@ public class Permutation {
             System.out.println(buf);
             return;
         }
-
         buf[j] = str.charAt(i);
         printPatternUtil(str, buf, i + 1, j + 1, n);
-
         // put comma
         buf[j] = ',';
         buf[j + 1] = str.charAt(i);
-
         printPatternUtil(str, buf, i + 1, j + 2, n);
     }
 
